@@ -1,0 +1,342 @@
+<!DOCTYPE HTML>
+<html lang="UTF-8">
+<head>
+<title>Practice</title>
+<meta charset="UTF-8">
+<style>
+#checked:visited {
+  color: green;
+}
+
+#checked:hover {
+  color: yellow;
+}
+
+table, th, td {
+  border: 1px solid red;
+  text-align: center;
+  border-collapse: collapse;
+  padding: 10px;
+  text-align:left;
+  border-spacing: 5px;
+}
+</style>
+</head>
+<body>
+  <!-- HTML
+    The <!DOCTYPE html> declaration defines this document to be HTML5
+    The <html> element is the root element of an HTML page
+    The <head> element contains meta information about the document. Its is not displayed
+    The <title> element specifies a title for the document
+    The <body> element contains the visible page content
+  -->
+
+  <!-- HTML HEADINGS -->
+  <h1>This is heading 1</h1>
+  <h2>This is heding 2</h2>
+  <h3>This is heading 3</h3>
+  <h4>This is heading 4</h4>
+  <h5>This is heading 5</h5>
+  <h6>This is heading 6</h6>
+
+  <!-- HORIZONTAL RULE -->
+  <hr>
+
+  <!-- HTML PARAGRAPH -->
+  <p>This is the first paragraph</p>
+  <p>This is a second paragraph</p>
+
+  <!-- HTML LINKS -->
+  <a href="http://www.google.com">Google</a><br><br>
+
+  <!-- HTML IMAGES && SIZE && ALT ATTRIBUTE-->
+  <img src="http://www.pageresource.com/wallpapers/wallpaper/dogs-baby-u-cute-puppy-dog-s-photo.jpg"
+  alt="Dog" width="104" height="90"><br>
+
+  <!-- TOOLTIP USING TITLE ATTRIBUTE -->
+  <p title="Human Resourses">HR</p><br>
+
+  <!-- LINE BREAKS -->
+  <p>This is <br>second  line<br>and third line.</p>
+
+  <!-- PRE ELEMENT GIVES THE SPACES YOU GIVE TO THE TEXT -->
+  <pre>
+      This is my first line.
+      this is my second line.
+      this is my third line.
+  </pre>
+
+  <!-- HTML STYLE
+  <tagname style="property:value;"
+  -->
+
+  <!-- BACKGROUND COLOR -->
+  <p style="background-color:red;">My background is red</p>
+
+  <!-- TEXT COLOR -->
+  <h3 style="color:blue">Iam blue</h3>
+
+  <!-- HTML FONTS -->
+  <h5 style="font-family: verdana;">Iam a verdana text font</h5>
+  <p style="font-family:courier;">Iam a courier text font</p>
+
+  <!-- HTML TEXT SIZE -->
+  <p style="font-size:120%;">Text size 120%</p>
+
+  <!-- HTML TEXT ALIGNMENT -->
+  <p style="text-align:center;color:green;">I go to the center</p>
+
+  <!-- TEXT FORMATTING
+    <b> - Bold text
+    <strong> - Important text
+    <i> - Italic text
+    <em> - Emphasized text
+    <mark> - Marked text
+    <small> - Small text
+    <del> - Deleted text
+    <ins> - Inserted text
+    <sub> - Subscript text
+    <sup> - Superscript text
+  -->
+
+  <!-- BOLD TEXT WITHOUT IMPORTANCE -->
+  <p>My name is <b>harold</b>.</p>
+
+  <!-- STRONG WITH IMPORTANCE -->
+  <p>Iam a computer <strong>programmer</strong>.</p>
+
+  <!-- ITALIC WITHOUT IMPORTANCE -->
+  <i>This is italic</i><br>
+
+  <!-- EMPHASIZED WITH IMPORTANCE -->
+  <em>This is important</em><br>
+
+  <!-- SMALL ELEMENT DEFINES SMALLER TEXT-->
+  <p>This text is <small>smaller</small></p>
+
+  <!-- MARK ELEMENT DEFINES HIGHLIGHTED TEXT -->
+  <p>This is an <mark>important</mark> text.</p>
+
+  <!-- DELETE ELEMENTS CROSSES A WORD OUT -->
+  <p>This is <del>wrong</del> right.</p>
+
+  <!-- INSERTED ELEMENT -->
+  <p>Inserted <ins>Element</ins>.</p>
+
+  <!-- SUBSCRIPTED  -->
+  <p>This text is <sub>subscritpted</sub>.</p>
+
+  <!-- SUPSCRIPTED - UP -->
+  <p>Twenty six to the power of twenty 26<sup>20</sup>.</p>
+
+  <!-- HTML (q) FOR SHORT QUOTATIONS -->
+  <p>You have to let <q>Technology keeps advancing</q>.</p>
+
+  <!-- HTML (BLOCKQUOTE) BIG QUOTES -->
+  <blockquote cite="http://www.worldwildlife.org/who/index.html">
+    For 50 years, WWF has been protecting the future of nature.
+    The world's leading conservation organization,
+    WWF works in 100 countries and is supported by
+    1.2 million members in the United States and
+    close to 5 million globally.
+  </blockquote>
+
+  <!-- (abbr) ABBREVIATION -->
+  <p>
+    <abbr title="Dave and Busters">DNB</abbr>
+  </p>
+
+  <!-- HTML ADDRESS -->
+  <address>
+    534 west 57 st.<br>
+    Miami fl.<br>
+    code 345677.<br>
+  </address>
+
+  <!-- HTML CITE ELEMENT DEFINES THE TITLE OF YOUR WORK.-->
+  <p>my book is called <cite>Testing</cite>.</p>
+
+  <!-- BI-DIRECTIONAL OVERRIDE  (bdo direction: ltr or rtl)-->
+  <bdo dir="ltr"> Great.</bdo><br>
+  <bdo dir="rtl">Great.</bdo><br>
+
+  <!-- HTML COMPUTER CODE
+    <code>	Defines programming code
+    <kbd>	Defines keyboard input
+    <samp>	Defines computer output
+    <var>	Defines a variable
+    <pre>	Defines preformatted text
+  -->
+
+  <!-- COMPUTER CODE -->
+  <code>
+    var x = 20
+    alert(x);
+  </code><br>
+
+  <!-- KBD INPUT -->
+  <kbd>File | Open </kbd>
+
+  <!-- SAMP OUTPUT -->
+  <samp>error 4</samp><br>
+
+  <!-- VAR -->
+  <var>p</var>=<var>a</var>+<var>4</var>
+
+  <!-- PREFORMATTED TEXT SPACES -->
+  <pre>
+    First sentence.
+    Second sentence.
+  </pre>
+
+  <!-- INLINE CSS -->
+  <h1 style="color:blue;">My color is blue</h1>
+
+  <!-- INTERNAL CSS -->
+  <!-- <!DOCTYPE html>
+<html>
+<head>
+  # External css
+  <link rel="stylesheet" href="styles.css">
+<style>
+body {background-color: powderblue;}
+h1   {color: blue;}
+p    {color: red;}
+</style>
+</head>
+<body>
+
+<h1>This is a heading</h1>
+<p>This is a paragraph.</p>
+
+</body>
+</html>-->
+
+<!-- Conditional Comments
+Conditional comments defines some HTML tags to be executed by Internet Explorer only.
+-->
+<!-- [if IE 9]>
+Text goes here ...
+<![endif] -->
+
+<!-- The CSS border property defines a border around an HTML element -->
+<p style="border: 1px solid green;">Boder 1px</p>
+
+<!-- The CSS padding property defines a padding (space) between the text and the border  -->
+<p style="padding: 10px;border:1px solid red;">Padding</p>
+
+<!-- The CSS margin property defines a margin (space) outside the border -->
+<p style="background: grey;margin:20px;">This is margin</p>
+
+<!-- Hyperlinks public page-->
+<a href="http://www.google.com">Google link</a>
+
+<!-- Hyperlink local -->
+<a href="index.html"></a><br />
+
+<!-- HTML Link colors -->
+<!--
+    a:link    {color:green; background-color:transparent; text-decoration:none}
+    a:visited {color:pink; background-color:transparent; text-decoration:none}
+    a:hover   {color:red; background-color:transparent; text-decoration:underline}
+    a:active  {color:yellow; background-color:transparent; text-decoration:underline}
+ -->
+
+<!-- HTML Links - The target Attribute
+Use the target attribute to define where to open the linked document
+ -->
+
+<!--
+    _blank - Opens the linked document in a new window or tab
+    _self - Opens the linked document in the same window/tab as it was clicked (this is default)
+    _parent - Opens the linked document in the parent frame
+    _top - Opens the linked document in the full body of the window (If your webpage is locked in a frame, you can use target="_top" to break out of the frame:)
+    framename - Opens the linked document in a named frame
+  -->
+<!-- Example of a visited page and opening on new page -->
+<a href="http://www.haroldgo.com" target="_blank" id="checked">My Page</a><br/>
+
+<!-- CREATING AN IMAGE AS A LINK -->
+<a href="https://code.org">
+  <img src="https://studio.code.org/assets/codeorg-studio-logo-white-af6de3335523a05f0d72141a8a8d39672df5468ae51626cb49570f410dd52e66.png"
+  alt="Code picture" width="50" height="50"/>
+</a>
+
+<!-- CREATING A BOOKMARK: WHEN YOU CREATE A LINK THAT TAKES YOU TO A SECTION IN THE PAGE
+a - refers - element (id or class)
+-->
+<a href="#S3">Take me to section 3</a>
+
+<h1>Section 1</h1>
+<p>This is a section 1</p>
+
+<h1>Section 2</h1>
+<p>This is a section 2</p>
+
+<h1>Section 3</h1>
+<p id="S3">This is a section 2</p>
+
+<h1>Section 4</h1>
+<p>This is a section 4</p>
+
+<h1>Section 5</h1>
+<p>This is a section 5</p>
+
+<!-- GIF IMAGE ALLOWS MOVING IMAGES / floating-->
+<img src="http://media.giphy.com/media/109Ku3hdapZJle/giphy.gif" alt="Computer man" style="width:48px;height:48px;float:right;">
+
+<!-- IMAGE MAPS -->
+<img src="planets.gif" alt="Planets" usemap="#planetmap" style="width:145px;height:126px;">
+
+<map name="planetmap">
+  <area shape="rect" coords="0,0,82,126" alt="Sun" href="sun.htm">
+  <area shape="circle" coords="90,58,3" alt="Mercury" href="mercur.htm">
+  <area shape="circle" coords="124,58,8" alt="Venus" href="venus.htm">
+</map>
+
+<!-- TABLES / CAPTION-->
+<!-- Use the HTML <table> element to define a table
+Use the HTML <tr> element to define a table row
+Use the HTML <td> element to define a table data
+Use the HTML <th> element to define a table heading
+Use the HTML <caption> element to define a table caption
+Use the CSS border property to define a border
+Use the CSS border-collapse property to collapse cell borders
+Use the CSS padding property to add padding to cells
+Use the CSS text-align property to align cell text
+Use the CSS border-spacing property to set the spacing between cells
+Use the colspan attribute to make a cell span many columns
+Use the rowspan attribute to make a cell span many rows
+Use the id attribute to uniquely define one table -->
+
+<table style="width:100%;">
+  <caption>Main info</caption>
+  <tr> <!-- tr creates a row -->
+    <th>Firstname: </th> <!-- th creates the header -->
+    <th>Lastname: </th>
+    <th>Email: </th>
+ </tr>
+ <tr>
+   <td>Harold</td> <!-- td creates the date for the table header -->
+   <td>Ramos</td>
+   <td>email.com</td>
+ </tr>
+</table><br/>
+
+</br/>
+
+<table>
+  <tr>
+    <th>Employee</th>
+    <th>Years</th>
+    <th>Hours</th>
+  </tr>
+  <tr>
+    <td colspan="2">George</td> <!-- COVERS TWO COLUMNS -->
+    <td>10</td>
+    <td>40</td>
+  </tr>
+</table>
+
+</body>
+</html>
