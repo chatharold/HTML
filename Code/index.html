@@ -23,6 +23,7 @@ table, th, td {
 </style>
 </head>
 <body>
+
   <!-- HTML
     The <!DOCTYPE html> declaration defines this document to be HTML5
     The <html> element is the root element of an HTML page
@@ -281,7 +282,8 @@ a - refers - element (id or class)
 
 <h1>Section 5</h1>
 <p>This is a section 5</p>
-
+<hr  />
+<h1>Image</h1>
 <!-- GIF IMAGE ALLOWS MOVING IMAGES / floating-->
 <img src="http://media.giphy.com/media/109Ku3hdapZJle/giphy.gif" alt="Computer man" style="width:48px;height:48px;float:right;">
 
@@ -293,6 +295,8 @@ a - refers - element (id or class)
   <area shape="circle" coords="90,58,3" alt="Mercury" href="mercur.htm">
   <area shape="circle" coords="124,58,8" alt="Venus" href="venus.htm">
 </map>
+<hr />
+<h1>Tables</h1>
 
 <!-- TABLES / CAPTION-->
 <!-- Use the HTML <table> element to define a table
@@ -315,7 +319,7 @@ Use the id attribute to uniquely define one table -->
     <th>Firstname: </th> <!-- th creates the header -->
     <th>Lastname: </th>
     <th>Email: </th>
- </tr>
+  </tr>
  <tr>
    <td>Harold</td> <!-- td creates the data for the table header -->
    <td>Ramos</td>
@@ -352,8 +356,102 @@ Use the CSS text-align property to align cell text
 Use the CSS border-spacing property to set the spacing between cells
 Use the colspan attribute to make a cell span many columns
 Use the rowspan attribute to make a cell span many rows
-Use the id attribute to uniquely define one table -->
+Use the id attribute to uniquely define one table
 
+-->
+
+<!-- HTML list -->
+
+<!-- Unordered List -->
+<hr />
+<h1>Unordered List</h1>
+<ul>
+ <li>Coffe</li>
+ <li>Milk</li>
+ <li>Sugar</li>
+</ul>
+
+<!-- Unordered list item maker (list-style-type)  -->
+<ul style="list-style-type:square">
+ <li>Toyota</li>
+ <li>Lexus</li>
+</ul>
+
+<ul style="list-style-type:none">
+ <li>Apple</li>
+ <li>Microsoft</li>
+</ul>
+
+<ul style="list-style-type:disc">
+  <li>Toyota</li>
+  <li>Lexus</li>
+ </ul>
+
+<ul style="list-style-type:circle">
+ <li>Toyota</li>
+ <li>Lexus</li>
+ </ul>
+
+<hr/>
+ <!-- Ordered HTML List -->
+ <h1>Ordered List</h1>
+ <ol>
+  <li>Toyota</li>
+  <li>Lexus</li>
+ </ol>
+
+ <ol type="1">
+  <li>Toyota</li>
+  <li>Lexus</li>
+ </ol>
+
+<ol type="A">
+  <li>Toyota</li>
+  <li>Lexus</li>
+</ol>
+
+<ol type="a">
+  <li>Toyota</li>
+  <li>Lexus</li>
+</ol>
+
+<ol type="i">
+ <li>Toyota</li>
+ <li>Lexus</li>
+</ol>
+
+<ol type="I" >
+ <li>Toyota</li>
+ <li>Lexus</li>
+</ol>
+
+<hr/>
+
+<!-- HTML Description list
+ 1-  <dl>: Defines a description list
+ 2-  <dt>: Defines a term's name
+ 3-  <dd>: Defines each term's data
+-->
+<h1>HTML Description List</h1>
+<dl>
+ <dt>Cortadito</dt>
+ <dd>Milk</dt>
+ <dd>Coffee</dt>
+</dl>
+
+<hr/>
+
+<!-- Block level elements:
+1- Creates a new line
+2- Streches to the right && left as far as it can (takes the full width)
+3- Example: <div>, <h1> - <h6>, <p>, <form>
+-->
+
+<!-- An inline element: 
+1- Does not create a new line
+2- Takes the space of the content or element
+3- Example: <span>, <a>, <img>
+-->
 
 </body>
 </html>
