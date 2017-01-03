@@ -447,11 +447,65 @@ Use the id attribute to uniquely define one table
 3- Example: <div>, <h1> - <h6>, <p>, <form>
 -->
 
-<!-- An inline element: 
+<!-- An inline element:
 1- Does not create a new line
 2- Takes the space of the content or element
 3- Example: <span>, <a>, <img>
 -->
+
+<!-- The <div> element: 
+1- It is used as a container for multiple HTML elements
+2- Example:
+<div style="background-color:black;color:white;padding:20px;">
+  <h2>London</h2>
+ <p>London is the capital city of England. It is the most populous city in the United Kingdom, with a metropolitan area of over 13 million inhabitants.</p>
+</div>
+-->
+
+<!-- The <span> element:
+1- It is used as a container for some text
+2- Example:
+<h1>My <span style="color:red">Important</span> Heading</h1>
+-->
+
+<!-- The class attribute: lets you define
+a style for al elements using the same class
+1- Example:
+
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+div.cities {
+    background-color: black;
+    color: white;
+    margin: 20px 0 20px 0;
+    padding: 20px;
+} 
+</style>
+</head>
+<body>
+
+<div class="cities">
+<h2>London</h2>
+<p>London is the capital of England. It is the most populous city in the United Kingdom, with a metropolitan area of over 13 million inhabitants.</p>
+</div>
+
+<div class="cities">
+<h2>Paris</h2>
+<p>Paris is the capital and most populous city of France.</p>
+</div>
+
+<div class="cities">
+<h2>Tokyo</h2>
+<p>Tokyo is the capital of Japan, the center of the Greater Tokyo Area,
+and the most populous metropolitan area in the world.</p>
+</div>
+
+</body>
+</html>
+-->
+
 
 </body>
 </html>
