@@ -46,8 +46,13 @@ HTML Important information:
       </body>
       </html>
 
-      1- The child element of html = head , body
+      1- The child element of html = head, body
       2- The parent element of body = html
       3- The sibling of the head tag = body
       4- The root = html
       5- Doctype = declaration NOT an element
+
+   Synonyms:
+      1- Web page = html document, html page, document
+      2- Parent = ancestor
+      3- Child = descendent
