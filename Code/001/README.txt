@@ -34,3 +34,20 @@ HTML Important information:
     8- <embed>
     9- <param>
     10- <wbr>
+
+  Nested Tags:
+      <!DOCTYPE HTML>
+      <html>
+      <head>
+         <meta charset="UTF-8">
+      </head>
+      <body>
+
+      </body>
+      </html>
+
+      1- The child element of html = head , body
+      2- The parent element of body = html
+      3- The sibling of the head tag = body
+      4- The root = html
+      5- Doctype = declaration NOT an element
