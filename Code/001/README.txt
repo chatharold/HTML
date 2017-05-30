@@ -56,3 +56,27 @@ HTML Important information:
       1- Web page = html document, html page, document
       2- Parent = ancestor
       3- Child = descendent
+
+   Separation of concerns:
+      1- HTML -> Structure
+      2- CSS  -> Formatting
+      3- JS   -> Functionality
+
+      ________________________
+      |                       |
+      |       <header>        |
+      |_______________________|
+
+
+      ________________________
+      |                       |
+      |       <section>       |
+      |   __________________  |            ________________
+      |   |    <article>   |  |           |                |
+      |   |----------------|  |           |     <aside>    |
+      |_______________________|           |________________|
+
+      ________________________
+      |                       |
+      |       <footer>        |
+      |_______________________|
