@@ -83,9 +83,10 @@ HTML Important information:
 
 
 
-    Layout:
-    <header></header>
+    Semantics of html:
     
+    <header></header>
+
     <section>
       <article></article>
     </section>
