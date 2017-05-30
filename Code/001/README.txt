@@ -93,3 +93,12 @@ HTML Important information:
     <aside></aside>
 
     <footer></footer>
+
+-------------------------------------------------
+
+  CSS:
+    1- Selector - declaration block - declarations - property: value
+
+    h1 {
+      text-align: center;
+    }
