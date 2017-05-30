@@ -94,7 +94,10 @@ HTML Important information:
 
     <footer></footer>
 
+
+
 ---------------------------------------------------------------------------
+
 
   CSS:
     1- Selector - declaration block - declarations - property: value
