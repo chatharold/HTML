@@ -1,29 +1,29 @@
 HTML Important information:
 
-  <!--  Elements
+  Elements:
     1- html
     2- head
     3- meta
     4- title
     5- body
--->
 
-  <!-- Tags
+
+  Tags:
     1- <html>
     2- <head>
     3- <meta>
     4- <title>
     5- <body>
- -->
 
-  <!-- Opening and Closing tags
+
+  Opening and Closing tags:
     1- <html></html>
     2- <head></head>
     3- <title></title>
     4- <body></body>
--->
 
-<!--  Self Closing tags
+
+Self Closing tags:
   1- <meta>
   2- <link>
   3- <hr>
@@ -34,4 +34,3 @@ HTML Important information:
   8- <embed>
   9- <param>
   10- <wbr>
--->
