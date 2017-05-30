@@ -81,7 +81,9 @@ HTML Important information:
       |       <footer>        |
       |_______________________|
 
-    Tags:
+
+
+    Layout:
     <header></header>
     <section>
       <article></article>
