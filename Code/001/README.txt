@@ -102,6 +102,7 @@ HTML Important information:
   CSS:
     1- Selector - declaration block - declarations - property: value
 
+  example:
     h1 {
       text-align: center;
     }
