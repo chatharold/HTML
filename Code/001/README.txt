@@ -85,6 +85,7 @@ HTML Important information:
 
     Layout:
     <header></header>
+    
     <section>
       <article></article>
     </section>
