@@ -99,7 +99,7 @@ HTML Important information:
 ---------------------------------------------------------------------------
 
 
-  CSS:
+  CSS Important information:
     1- Selector - declaration block - declarations - property: value
 
   example:
