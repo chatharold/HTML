@@ -80,3 +80,13 @@ HTML Important information:
       |                       |
       |       <footer>        |
       |_______________________|
+
+    Tags:
+    <header></header>
+    <section>
+      <article></article>
+    </section>
+
+    <aside></aside>
+
+    <footer></footer>
