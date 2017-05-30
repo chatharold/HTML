@@ -83,8 +83,7 @@ HTML Important information:
 
 
 
-    Semantics of html:
-    
+  Semantics of html:
     <header></header>
 
     <section>
