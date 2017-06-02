@@ -62,7 +62,7 @@ HTML Important information:
       2- CSS  -> Formatting
       3- JS   -> Functionality
 
-      ________________________
+      _________________________
       |                       |
       |       <header>        |
       |_______________________|
