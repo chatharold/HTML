@@ -1,0 +1,23 @@
+div {
+  width: 100px;
+  height: 100px;
+  border: 1px solid red;
+}
+
+img {
+  border: 10px groove orangered;
+  width: 130px;
+}
+
+.first {
+  border: 10px dashed orangered;
+}
+
+.second {
+  border: 10px dotted orangered;
+}
+
+.third {
+  border: 10px double orangered;
+  border: ;
+}
