@@ -1,0 +1,19 @@
+.first {
+  border: 10px solid green;
+  height: 100px;
+  display: inline;
+}
+
+.second {
+  border: 10px solid red;
+}
+
+.third {
+  border: 10px solid rgb(7, 30, 54);
+  display: none;
+}
+
+.fourth {
+  border: 10px solid purple;
+  display: inline-block;
+}
