@@ -1,0 +1,27 @@
+.one_value{
+  border: 1px solid red;
+  margin: 100px;
+}
+
+.two_values {
+  border: 1px solid green;
+  margin:50px 50px;
+}
+
+.single_values {
+  border: 1px solid purple;
+  margin: 25px 25px 25px 25px;
+}
+
+.auto {
+  border: 1px solid blue;
+  width: 300px;
+  /* auto = left and right equal */
+  margin: 200px auto;
+}
+
+.zero {
+  border: 1px solid orangered;
+  /* 0 = top and bottom no margin*/
+  margin: 0 auto;
+}
