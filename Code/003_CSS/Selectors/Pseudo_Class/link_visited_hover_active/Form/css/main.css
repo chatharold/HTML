@@ -1,0 +1,16 @@
+/* when button is hover */
+[type=submit]:hover {
+  background: green;
+  border: none;
+}
+
+/* when botton is pressed */
+[type=submit]:active {
+  background: purple;
+  border:none;
+}
+
+/* required attributes with color red */
+input:required {
+  background: red;
+}
