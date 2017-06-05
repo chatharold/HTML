@@ -1,0 +1,24 @@
+/* Do not have to use them all
+but it should be in that order
+*/
+a:link {
+  /* regular color */
+  color:green;
+}
+
+a:visited {
+  /* when going back after visited*/
+  color: red;
+}
+
+a:hover {
+  /* when hovered */
+  color:yellow;
+}
+
+a:active {
+  /* When pressed */
+  color:blue;
+}
+
+/* lvha = LoVe HAte*/

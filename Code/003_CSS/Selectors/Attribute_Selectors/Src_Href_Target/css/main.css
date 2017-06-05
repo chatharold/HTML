@@ -1,0 +1,14 @@
+[src] {
+  border: 1px dashed black;
+  color: green;
+}
+
+[href] {
+  color: purple;
+  font-size: 100px;
+}
+
+[target=_blank] {
+  text-align: center;
+  color: orangered;
+}
