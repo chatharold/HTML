@@ -1,0 +1,13 @@
+table, tr, td {
+  width: 100%;
+  border: 1px solid black;
+  text-align: center;
+}
+
+tr:nth-child(even) {
+  background: yellow;
+}
+
+tr:nth-child(odd) {
+  background: purple;
+}

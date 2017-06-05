@@ -1,0 +1,10 @@
+/*first li of it's parent's element (ul)*/
+li:first-child {
+  background: purple;
+  color: white;
+}
+
+/* first ul of it's parent's element (body)*/
+ul:first-child {
+  border: 2px dashed green;
+}
