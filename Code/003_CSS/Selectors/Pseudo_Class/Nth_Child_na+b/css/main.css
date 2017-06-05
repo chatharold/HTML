@@ -1,0 +1,12 @@
+/* start at one, count 3 and select it */
+
+/*li:nth-child(3n+1){
+  background: purple;
+}*/
+
+/* start at 8 and go every 10 
+(go by + start)
+*/
+li:nth-child(10n+8){
+  background: purple;
+}

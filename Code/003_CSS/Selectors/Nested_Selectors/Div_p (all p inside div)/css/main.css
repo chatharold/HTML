@@ -1,0 +1,4 @@
+/* select all p elements inside the div */
+div p {
+  color: red;
+}
