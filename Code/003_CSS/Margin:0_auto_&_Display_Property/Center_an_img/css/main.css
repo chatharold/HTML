@@ -1,0 +1,26 @@
+/* This selects all elements */
+/** {
+  border: 2px solid orangered;
+}*/
+
+html {
+  border: 2px solid black;
+}
+
+body {
+   border: 3px solid red;
+}
+
+div {
+  border: 6px solid purple;
+}
+
+/* As there is no room for inline element 
+you need to make it a block element */
+img {
+  display: block;
+  margin: 0 auto;
+  /* when using % the img shrinks according to
+  the screen size*/
+  width: 50%;
+}
