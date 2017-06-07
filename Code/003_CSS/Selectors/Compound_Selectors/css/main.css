@@ -1,0 +1,11 @@
+/* Any li who is a child of an ul with the 
+id="fruits*/
+ /* 1 0 2 :(ul, id, li = 1, 100, 1)*/
+ul#fruits li {
+  background: yellow;
+}
+
+/* 1 0 */
+.first {
+  background: green;
+}

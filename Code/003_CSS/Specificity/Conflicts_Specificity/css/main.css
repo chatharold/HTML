@@ -1,0 +1,14 @@
+/* Id beats the class */
+/*#first {
+  background: purple;
+}*/
+
+.second {
+  background: yellow;
+}
+
+/* The last class always wins */
+.third {
+  background: green;
+}
+
