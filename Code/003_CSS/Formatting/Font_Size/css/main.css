@@ -1,0 +1,6 @@
+/* Use rem for font size */
+h1 {
+  font-size: 5rem;
+}
+
+/* Also you can use vw wich chrinks according to the viewport width */

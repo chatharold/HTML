@@ -1,0 +1,8 @@
+/* As you see frist and second does not exist 
+so it will fallback to serif
+*/
+
+p {
+  font-family: first, second, serif;
+  font-size: 60px;
+}
