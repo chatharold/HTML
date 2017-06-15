@@ -1,0 +1,12 @@
+/* Used in anchor tags */
+a {
+  /*text-decoration: none;*/
+  text-decoration: line-through underline overline;
+}
+
+/* Defines the line */
+p {
+  text-decoration-line: overline;
+  /*text-decoration-line: line-through;*/
+  /*text-decoration-line:unset;*/
+}
