@@ -95,9 +95,10 @@ HTML Important information:
     <footer></footer>
 
 
-
+  Layout resourses:
+    https://css-tricks.com/snippets/css/a-guide-to-flexbox/
+    http://learnlayout.com
 ---------------------------------------------------------------------------
-
 
   CSS Important information:
     1- Selector - declaration block - declarations - property: value
@@ -106,3 +107,24 @@ HTML Important information:
     h1 {
       text-align: center;
     }
+
+---------------------------------------------------------------------------
+
+-Display property:
+
+
+  block: 
+    - Begins on a new line
+    - Takes up the entire width
+    - You can nest inside -> inline and block elements
+
+  inline:
+    - does not begin in a new line
+    - take up the content's width
+    - you can nest: inline elements
+
+    div is a: 
+     - block element
+
+    span is a: 
+     - inline element 
