@@ -1,0 +1,20 @@
+body {
+  display: flex;
+  justify-content: center;
+  
+  /*Flex-direction by default is row */
+  flex-direction: row;
+
+  /* flex-wrap */
+  flex-wrap: nowrap;
+  /*flex-wrap: wrap;*/
+  /*flex-wrap: wrap-reverse;*/
+}
+
+div {
+  background: green;
+  width: 100px;
+  height: 100px;
+  border: 2px solid red;
+  margin: 0 5px;
+}
