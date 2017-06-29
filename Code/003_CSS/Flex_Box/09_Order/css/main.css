@@ -1,0 +1,25 @@
+body {
+  border: 1px solid pink;
+  display: flex;
+  flex-flow: column wrap;
+}
+
+div {
+  width: 100px;
+  height: 50px;
+  background:yellow;
+  text-align: center;
+  margin: 1em;
+}
+
+#a { order: 5}
+
+#b { order: 4}
+
+#c { order: 3}
+
+#d { order: 2}
+
+#e { order:1}
+
+#f { order:-1}

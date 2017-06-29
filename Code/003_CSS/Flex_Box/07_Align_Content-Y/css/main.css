@@ -1,0 +1,13 @@
+body {
+  display: flex;
+  flex-flow: row wrap;
+  align-content: center;
+  height: 700px;
+}
+
+div {
+  background: yellow;
+  width: 100px;
+  height: 100px;
+  margin: 1em;
+}

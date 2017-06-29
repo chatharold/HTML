@@ -1,0 +1,15 @@
+body {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  align-items: flex-start;
+  height: 700px;
+  border: 1px solid red;
+}
+
+div {
+  width: 200px;
+  height: 100px;
+  margin: 1em;
+  background: red;
+}

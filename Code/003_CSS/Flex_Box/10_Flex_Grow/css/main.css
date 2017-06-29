@@ -1,0 +1,26 @@
+body {display: flex;}
+
+div {
+  background: yellow;
+  border: 1px solid red;
+  padding: 10px;
+  text-align: center;
+  /*width: 100%;*/
+}
+
+/* You can set any value and it will make it bigger */
+.grow1 {
+  flex-grow: 2;
+}
+
+.grow2 {
+  flex-grow: 2;
+}
+
+.grow3 {
+  flex-grow: 2;
+}
+
+.diff {
+  flex-grow: 5;
+}

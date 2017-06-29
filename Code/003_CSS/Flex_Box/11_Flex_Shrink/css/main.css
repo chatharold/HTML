@@ -1,0 +1,14 @@
+body {display: flex;}
+
+div {
+  background: yellow;
+  border: 1px solid red;
+  text-align: center;
+  width: 250px;
+  height: 50px;
+}
+
+/* two will start to shrink when decrementing width */
+.shrink2 {
+  flex-shrink: 2;
+}

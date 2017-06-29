@@ -1,0 +1,18 @@
+body{
+  border: 5px groove red;
+  display: flex;
+  flex-wrap: wrap;
+  height: 700px;
+}
+
+#selfie {
+  align-self: center;
+  background: grey;
+}
+
+div {
+  width: 100px;
+  height: 100px;
+  background: yellow;
+  margin: 1em;
+}

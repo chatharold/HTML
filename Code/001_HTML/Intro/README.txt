@@ -126,5 +126,5 @@ HTML Important information:
     div is a: 
      - block element
 
-    span is a: 
+    span is an: 
      - inline element 
