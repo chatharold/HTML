@@ -10,8 +10,16 @@
   <link rel="stylesheet" href="css/greater-500.css" media="(min-width:500px)">
   <!-- MAX can be read backwards (300 or less = yellow background) -->
   <link rel="stylesheet" href="css/less-400.css" media="(max-width:400px)">
+  <link rel="stylesheet" href="css/print.css" media="print">
 </head>
 <body>
+  <!-- I see media queries like if statements for css -->
+  <!-- Its better to use html media query -->
+  <!--
+    min-width = from this min-width upwards
+    max-width = from this max-width downwards
+  -->
+
   <p>This red paragraph will become blue when 500 or bigger </p>
   <p>Also the background will be yellow when 400 or less</p>
 </body>

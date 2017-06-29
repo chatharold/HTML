@@ -1,0 +1,6 @@
+/* 600 or more chaange text to orange*/
+@media (min-width:600px){
+  h1 {
+    color: orange;
+  }
+}
