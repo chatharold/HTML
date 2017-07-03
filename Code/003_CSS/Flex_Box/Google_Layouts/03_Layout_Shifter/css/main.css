@@ -1,0 +1,29 @@
+.container1, .container2 {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.box1 {
+  width: 100%;
+  text-align: center;
+}
+
+.blue {
+  background: blue;
+  height: 80px;
+}
+
+.red {
+  background: red;
+  height: 80px;
+}
+
+.green {
+  background: green;
+  height: 80px;
+}
+
+.yellow {
+  background: yellow;
+  height: 80px;
+}

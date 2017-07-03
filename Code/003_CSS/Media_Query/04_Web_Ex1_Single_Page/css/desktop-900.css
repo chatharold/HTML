@@ -1,0 +1,12 @@
+
+nav, ul {
+  display: flex;
+  flex-flow: column wrap;
+  align-items: flex-start;
+}
+
+main, section {
+  /*display: flex;*/
+  /*align-items: flex-end;*/
+  display: inline-block;
+}
