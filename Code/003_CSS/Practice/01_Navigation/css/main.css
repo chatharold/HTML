@@ -1,0 +1,34 @@
+html, body, nav, ul, li, a {
+  padding: 0;
+  border: 0;
+  margin: 0;
+}
+
+ul {
+  /*border: 4px solid red;*/
+  display: flex;
+  display: block;
+  flex-flow: column nowrap;
+  list-style-type: none;
+  background: #4A49FF;
+}
+
+li {
+  /*border: 2px solid blue;*/
+  display: block;
+  margin: 0 auto;
+  padding: 10px;
+  text-align: center;
+  border: 1px solid hsl(247, 17%, 30%);
+}
+
+a {
+  /*border: 4px solid yellow;*/
+  text-decoration: none;
+  color: white;
+  border-bottom: none;
+}
+
+li:hover {
+  background: #b416e0;
+}
