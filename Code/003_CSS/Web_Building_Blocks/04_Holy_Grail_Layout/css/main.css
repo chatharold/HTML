@@ -1,0 +1,41 @@
+html, body, header, article, aside, footer {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  box-sizing: border-box;
+}
+
+body {
+  /* This border is used for testing purposes */
+  /*border: 3px solid red; */
+  display: flex;
+  flex-wrap: wrap;
+}
+
+header, article, aside, footer {
+   width: 100%;
+   justify-content: center;
+   align-items: center;
+   text-align: center;
+   padding: 20px;
+}
+
+header {
+  background: orange;
+}
+
+article {
+  background: deepskyblue;
+}
+
+aside:nth-child(3) {
+  background: yellow;
+}
+
+aside:nth-child(4) {
+  background: pink;
+}
+
+footer {
+  background: green;
+}

@@ -1,0 +1,28 @@
+aside {
+  width: 15%;
+}
+
+/* Second from ltr */
+article {
+  width: 70%;
+  background: deepskyblue;
+  order: 2;
+}
+
+/* First from ltr */
+aside:nth-child(3) {
+  order: 1;
+  background: yellow;
+}
+
+/* Third from ltr */
+aside:nth-child(4) {
+  order: 3;
+  background: pink;
+}
+
+/* Fourth from ltr */
+footer {
+  order: 4;
+  background: green;
+}
