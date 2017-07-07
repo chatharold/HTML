@@ -1,0 +1,20 @@
+/* MEDIA QUERY */
+div {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+nav {
+  width: 20%;
+}
+
+article {
+  width: 60%;
+}
+
+aside {
+    width: 20%;
+}
+
+/* If values dont add up use = border-sizing 
+like in main.css */

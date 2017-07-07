@@ -1,0 +1,10 @@
+/* STYLE */
+body {
+  background: wheat;
+  text-align: center;
+}
+
+header, nav, article, aside, footer {
+  padding: 10px;
+  border: 1px solid black;
+}
