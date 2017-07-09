@@ -1,0 +1,17 @@
+/*#relative {
+  position: relative;
+  background: salmon;
+  width: 200px;
+  height: 200px;
+  top: 10px;
+  left: 10px;
+}*/
+
+#absolute {
+  background: yellow;
+  position: absolute;
+  top: 50px;
+  left: 10px;
+  width: 100px;
+  height: 100px;
+}

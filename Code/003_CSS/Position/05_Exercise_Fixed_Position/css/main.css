@@ -1,0 +1,17 @@
+html, body, div {
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+
+div {
+  background: orange;
+  height: 50px;
+  width: 100%;
+}
+
+#footer {
+  /* Moves the div to the bottom at 0 px */
+  position: fixed;
+  bottom: 0;
+}

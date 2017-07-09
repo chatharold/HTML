@@ -1,0 +1,21 @@
+body {
+  border: 1px solid red;
+  margin:  0 auto;
+  max-width: 700px;
+  box-sizing: border-box;
+}
+
+nav {
+  /*border: 2px solid yellow;*/
+  position: absolute;
+}
+
+main {
+  border-left: 2px solid grey;
+  margin: 0 20px;
+  margin-left: 130px;
+}
+
+p {
+  margin-left: 10px;
+}

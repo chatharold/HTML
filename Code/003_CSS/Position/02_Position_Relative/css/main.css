@@ -1,0 +1,18 @@
+div {
+  height: 100px;
+  height: 100px;
+  background: green;
+}
+
+#altered {
+  background: blue;
+  position: relative;
+  top: 20px;
+  left: 30px;
+}
+
+/* This wil cancel the position relative */
+
+/*#altered {
+  position: static;
+}*/
