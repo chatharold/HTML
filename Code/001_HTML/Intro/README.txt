@@ -142,12 +142,12 @@ static:
 relative:
     - It follows the flow of the document like static
     - but top, right, bottom, left are applicable
-    - It pushes the element to the oposite direction
+    - It pushes the element to the opposite direction
 
 absolute:
     - It does not follow the flow of the document
     - Other elements will behave as this element is not event there
-    - Pushes the element according the direction
+    - It pushes the element according the direction
 
 fixed:
     - It does not follow the flow of the document like absolute
