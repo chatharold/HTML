@@ -146,6 +146,7 @@ relative:
 absolute:
     - It does not follow the flow of the document
     - Other elements will behave as this element is not event there
+    - Pushes the element according the direction
 
 fixed:
     - It does not follow the flow of the document like absolute
