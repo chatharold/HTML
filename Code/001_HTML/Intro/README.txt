@@ -128,3 +128,29 @@ HTML Important information:
 
     span is an: 
      - inline element 
+
+---------------------------------------------------------------------------
+
+-Position
+
+
+static:
+    - Every element has a static position by default
+    - It follows the flow of the document
+    - top, right, bottom, left are not applicable
+
+relative:
+    - It follows the flow of the document like static
+    - but top, right, bottom, left are applicable
+
+absolute:
+    - It does not follow the flow of the document
+    - Other elements will behave as this element is not event there
+
+fixed:
+    - It does not follow the flow of the document like absolute
+    - Not affected by scrolling (The document flows under the element)
+
+sticky:
+    - It works as the relative
+    - It sticks when scrolling (Used for sticky navs)
