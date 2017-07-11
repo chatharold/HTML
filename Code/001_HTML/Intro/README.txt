@@ -145,7 +145,8 @@ relative:
 
 absolute:
     - It does not follow the flow of the document
-    - Other elements will behave as this element is not event there
+    - Other elements will behave as this element is not even there
+    - It works in relationship to some other elements up the DOM
 
 fixed:
     - It does not follow the flow of the document like absolute
