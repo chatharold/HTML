@@ -108,6 +108,7 @@ HTML Important information:
       text-align: center;
     }
 
+    2- External CSS Order: reset - main.css - media-query
 ---------------------------------------------------------------------------
 
 -Display property:
