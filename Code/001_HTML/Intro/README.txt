@@ -135,6 +135,7 @@ HTML Important information:
 
 
 static:
+    - It overwrites all the positions
     - Every element has a static position by default
     - It follows the flow of the document
     - top, right, bottom, left are not applicable
