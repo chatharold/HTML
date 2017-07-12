@@ -112,7 +112,7 @@ HTML Important information:
     3- Tools: 
       - Flexbox
       - Position
-      - Float (float:right or left) (overflow: auto ) (clear: both)
+      - Float (float:right, left, none) (overflow: auto ) (clear: both)
 ---------------------------------------------------------------------------
 
 -Display property:
