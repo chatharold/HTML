@@ -161,3 +161,18 @@ fixed:
 sticky:
     - It works as the relative
     - It sticks when scrolling (Used for sticky navs)
+
+---------------------------------------------------------------------------
+
+- Background Property:
+
+      background-image: none
+      background-position: 0% 0%
+      background-size: auto auto
+      background-repeat: repeat
+      background-origin: padding-box
+      background-clip: border-box
+      background-attachment: scroll
+      background-color: transparent
+
+---------------------------------------------------------------------------
