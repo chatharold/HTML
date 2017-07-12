@@ -12,7 +12,7 @@ body {
 }
 
 div {
-  background: green;
+  background-color: green;
   width: 100px;
   height: 100px;
   border: 2px solid red;

@@ -3,9 +3,12 @@ html, body {
   margin: 0;
 }
 
-html{border: 1px solid red;}
+html{
+  border: 1px solid red;
+}
 
-body {border: 1px solid pink;
+body {
+  border: 1px solid pink;
   display: flex;
 }
 

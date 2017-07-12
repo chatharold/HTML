@@ -7,12 +7,12 @@ body{
 
 #selfie {
   align-self: center;
-  background: grey;
+  background-color: grey;
 }
 
 div {
   width: 100px;
   height: 100px;
-  background: yellow;
+  background-color: yellow;
   margin: 1em;
 }

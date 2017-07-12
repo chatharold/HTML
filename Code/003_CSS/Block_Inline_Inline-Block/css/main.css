@@ -5,17 +5,17 @@ div {
 }
 
 .b {
-  background: red;
+  background-color: red;
 }
 
 .i {
   /* margin wont work */
   /*margin-top: 100px;*/
   display: inline;
-  background: green;
+  background-color: green;
 }
 
 .ib {
   display: inline-block;
-  background: orange;
+  background-color: orange;
 }
