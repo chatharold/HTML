@@ -1,0 +1,41 @@
+html, body, header, nav, main, footer {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  box-sizing: border-box;
+}
+
+header, nav, main, footer {
+  text-align: center;
+  margin: 2px auto;
+  border-radius: 2px;
+}
+
+header {
+  background: orange;
+  width: 100%;
+  height: 50px;
+}
+
+nav {
+  overflow: auto;
+  float: left;
+  background: lightblue;
+  width: 28%;
+  height: 200px;
+}
+
+main {
+  overflow: auto;
+  float: right;
+  background: wheat;
+  width: 70%;
+  height: 200px;
+}
+
+footer {
+  clear: both;
+  background: deepskyblue;
+  width: 100%;
+  height: 50px;
+}
