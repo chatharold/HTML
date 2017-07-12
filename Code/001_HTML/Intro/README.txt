@@ -163,16 +163,18 @@ sticky:
     - It sticks when scrolling (Used for sticky navs)
 
 ---------------------------------------------------------------------------
+- Short hand:
+  - I Personally Say Regular Apples Come On Colors
 
 - Background Property:
 
-      background-image: none
-      background-position: 0% 0%
-      background-size: auto auto
-      background-repeat: repeat
-      background-origin: padding-box
-      background-clip: border-box
-      background-attachment: scroll
-      background-color: transparent
+      background-image
+      background-position
+      background-size
+      background-repeat
+      background-attachment
+      background-clip
+      background-origin
+      background-color: 
 
 ---------------------------------------------------------------------------
