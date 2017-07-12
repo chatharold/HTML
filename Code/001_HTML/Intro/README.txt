@@ -109,6 +109,10 @@ HTML Important information:
     }
 
     2- External CSS Order: reset - main.css - media-query
+    3- Tools: 
+      - Flexbox
+      - Position
+      - Float (in the old days)
 ---------------------------------------------------------------------------
 
 -Display property:
