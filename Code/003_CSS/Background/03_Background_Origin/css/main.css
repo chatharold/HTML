@@ -1,0 +1,13 @@
+div {
+  padding: 40px;
+  border: 1px solid grey;
+  width: 500px;
+  height: 500px;
+  background-image: url("../img/dog.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain; 
+  background-origin: content-box; 
+  background-color: purple;
+  margin: 0 auto;
+}
