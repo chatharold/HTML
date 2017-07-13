@@ -1,0 +1,7 @@
+body {
+  text-align: center;
+  margin-top: 250px;
+  background-image: url("../img/gopher.jpg");
+  background-position: center; 
+  background-repeat: no-repeat; 
+}
