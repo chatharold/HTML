@@ -98,6 +98,9 @@ HTML Important information:
   Layout resourses:
     https://css-tricks.com/snippets/css/a-guide-to-flexbox/
     http://learnlayout.com
+
+  Entities:
+    - &nbsp; (When you dont want the text to break)
 ---------------------------------------------------------------------------
 
   CSS Important information:
