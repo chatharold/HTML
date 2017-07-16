@@ -181,3 +181,60 @@ sticky:
       background-color: 
 
 ---------------------------------------------------------------------------
+
+Note: 
+- The axis position depends on row || column positions.
+
+- Flexbox (Display: flex;) 
+
+1- justify-content:
+  - flex-start
+  - flex-end
+  - center
+  - space-around
+  - space-between
+
+2- align-items:
+  - flex-start 
+  - flex-end
+  - center
+  - baseline
+  - stretch
+
+3- flex-direction:
+  - row
+  - row-reverse
+  - column
+  - column-reverse
+
+4- order: positions the elements from left to right
+  - 0 (defaul)
+  - 1
+  - -1
+
+5- align-self: works like align-items but for a specific item.
+  - flex-start 
+  - flex-end
+  - center
+  - baseline
+  - stretch
+
+6- flex-wrap: wraps the elements to a new line
+  - wrap
+  - nowrap
+  - wrap-reverse
+
+7- flex-flow: shorthand (<flex-direction> && <flex-wrap>)
+  - row wrap
+  - column nowrap
+
+8- align-content:
+- aligns a flex container's lines within the flex container
+when extra space in the cross axis.
+
+- flex-start
+- flex-end
+- center
+- space-between
+- space-around
+- stretch
