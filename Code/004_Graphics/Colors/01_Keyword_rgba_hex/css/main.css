@@ -1,0 +1,31 @@
+body {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  /* border: 1px solid red; */
+  height: 100vh;
+}
+
+div {
+  width: 200px;
+  height: 200px;
+  line-height: 200px;
+  margin: 5px;
+}
+
+div:nth-child(1) {
+  background-color: blue;
+}
+
+div:nth-child(2) {
+  background-color: rgb(255, 0, 0);
+}
+
+div:nth-child(3) {
+  background-color: rgba(255, 10, 0, .2);
+}
+
+div:nth-child(4) {
+  background-color: #999990;
+}
