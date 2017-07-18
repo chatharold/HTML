@@ -238,3 +238,15 @@ when extra space in the cross axis.
 - space-between
 - space-around
 - stretch
+
+---------------------------------------------------------------------------
+
+  Tools:
+    - Adobe kuler
+    - pexels
+    - unsplash
+    - istock photos
+    - colors mdn
+    - http://fontawesome.io/cheatsheet/
+
+---------------------------------------------------------------------------
