@@ -1,0 +1,29 @@
+html, body, header {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+}
+
+header {
+  width: 100px;
+  height: 100px;
+
+  /* Transition */
+  transition-property: background-color;
+  transition-duration: 3s;
+  transition-timing-function: ease-in;
+  transition-delay: 2s;
+  background-color: lightgreen;
+}
+
+header:hover {
+  background-color: lightseagreen;
+}
