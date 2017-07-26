@@ -1,0 +1,27 @@
+html, body, div {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  box-sizing: border-box;
+}
+
+div {
+  width: 100px;
+  height: 100px;
+  background-color: lightgreen;
+
+  /* Animation */
+  animation-name: changeColor;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes changeColor {
+  0% {
+      background-color: lightcoral;
+  }
+
+  100% {
+    background-color: lightseagreen;
+  }
+}
