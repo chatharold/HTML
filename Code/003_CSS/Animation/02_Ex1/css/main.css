@@ -14,6 +14,8 @@ div {
   animation-name: changeColor;
   animation-duration: 2s;
   animation-iteration-count: infinite;
+  animation-direction: alternate /*reverse*/;
+  animation-timing-function: ease-in-out;
 }
 
 @keyframes changeColor {
